@@ -1,0 +1,6 @@
+framework module Pods_QNBaseComponent_Example {
+  umbrella header "Pods-QNBaseComponent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
