@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QNBaseComponent_Example' do
+  pod 'QNBaseComponent', :path => '../'
+
+  target 'QNBaseComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
