@@ -1,7 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@git.coding.net:JJjianjian/QNBJPodSpec.git'
+
 use_frameworks!
 
 target 'QNBaseComponent_Example' do
-  pod 'QNBaseComponent', :path => '../'
+  pod 'QNBaseComponent', '~> 0.1.0'
 
   target 'QNBaseComponent_Tests' do
     inherit! :search_paths
