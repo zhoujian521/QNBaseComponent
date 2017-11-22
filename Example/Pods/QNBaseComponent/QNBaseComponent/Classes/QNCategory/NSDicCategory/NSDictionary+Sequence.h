@@ -10,11 +10,6 @@
 
 @interface NSDictionary (Sequence)
 
-/**
- 字典 =》字典序【字符串】
-
- @return 字典序
- */
 - (NSString *)dictionarySequence;
 
 @end

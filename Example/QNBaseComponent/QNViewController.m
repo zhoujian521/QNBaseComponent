@@ -7,7 +7,7 @@
 //
 
 #import "QNViewController.h"
-#import "QNBasicConfiguration.h"
+#import "NSString+Check.h"
 
 @interface QNViewController ()
 
@@ -16,6 +16,8 @@
 @implementation QNViewController
 
 - (void)viewDidLoad{
+    NSString *aa = @"1232dsd";
+    [aa isValidateIDNumber];
 }
 
 @end

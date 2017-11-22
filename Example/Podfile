@@ -7,7 +7,7 @@ target 'QNBaseComponent_Example' do
     
 #    本地私有库
     pod 'QNBaseComponent', :path => '../'
-    
+
 #    远程私有库
 #  pod 'QNBaseComponent/QNBasicConfiguration'
 #  pod 'QNBaseComponent/QNCategory'

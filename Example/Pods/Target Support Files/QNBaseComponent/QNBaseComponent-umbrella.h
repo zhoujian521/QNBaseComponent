@@ -20,6 +20,7 @@
 #import "NSString+Check.h"
 #import "NSString+CompareVersion.h"
 #import "NSString+Encryption.h"
+#import "NSString+RemoveEmoji.h"
 #import "UIBarButtonItem+Item.h"
 #import "UIButton+Blocks.h"
 #import "UIButton+CustomerBlocks.h"
