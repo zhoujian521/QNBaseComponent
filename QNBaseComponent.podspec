@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QNBaseComponent'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'QNBaseComponent'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,20 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'QNBaseComponent/Classes/**/*'
-  
+  # 【青牛组件化开发】【基础组件】=》【子组件】=》【基础配置组件】
+  s.subspec 'QNBasicConfiguration' do |b|
+    b.source_files = 'QNBaseComponent/Classes/QNBasicConfiguration/**/*'
+  end
+
+  # 【青牛组件化开发】【基础组件】=》【子组件】=》【分类组件】
+  s.subspec 'QNCategory' do |c|
+    b.source_files = 'QNBaseComponent/Classes/QNCategory/**/*'
+  end
+
+  s.subspec 'QNTool' do |t|
+    t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
+  end
+
   # s.resource_bundles = {
   #   'QNBaseComponent' => ['QNBaseComponent/Assets/*.png']
   # }

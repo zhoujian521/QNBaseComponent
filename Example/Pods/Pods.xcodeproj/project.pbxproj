@@ -18,6 +18,10 @@
 		60714314427C375E19FE8C2864C2DBC4 /* QNBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBD4A6E4C559D666C3F960288485684 /* QNBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBC6D173A20D6F2491BD9B1F298FFAB /* ZJBaseCom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1534D98C89025298A4119EBBFBDFDA17 /* ZJBaseCom.m */; };
 		963BC78CD430A271122C40A30C55B9E9 /* Pods-QNBaseComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 552A9B223046091AAEDAED677E10D0FE /* Pods-QNBaseComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAEE165E1FC5199B00C66FF9 /* QNCategoryTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEE165C1FC5199B00C66FF9 /* QNCategoryTest.h */; };
+		AAEE165F1FC5199B00C66FF9 /* QNCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE165D1FC5199B00C66FF9 /* QNCategoryTest.m */; };
+		AAEE16621FC519A400C66FF9 /* QNToolTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEE16601FC519A400C66FF9 /* QNToolTest.h */; };
+		AAEE16631FC519A400C66FF9 /* QNToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE16611FC519A400C66FF9 /* QNToolTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,24 +45,29 @@
 		371610724998BE0806B86FE97B6BFB6A /* QNBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		3E5C24D08C57AC1F4BA14FB838F2E4C4 /* Pods-QNBaseComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNBaseComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		552A9B223046091AAEDAED677E10D0FE /* Pods-QNBaseComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNBaseComponent_Example-umbrella.h"; sourceTree = "<group>"; };
-		5658BDC67246E36E739C8BE52A540B17 /* Pods-QNBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QNBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
+		5658BDC67246E36E739C8BE52A540B17 /* Pods-QNBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QNBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		5D64C5C48F90A593EE1562B282A00DC5 /* Pods-QNBaseComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNBaseComponent_Example-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B3EF1D50E3E053A5C96E92A428736CA /* QNBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QNBaseComponent.xcconfig; sourceTree = "<group>"; };
 		721578846131A31068B424FCDF920C39 /* Pods-QNBaseComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNBaseComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		745CDAED934B5934A7D7E92A83FAFBAE /* Pods_QNBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QNBaseComponent_Tests.framework; path = "Pods-QNBaseComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745CDAED934B5934A7D7E92A83FAFBAE /* Pods_QNBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBaseComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EDCA7CF578C85ED78AFAD78982C802 /* Pods-QNBaseComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNBaseComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80609B380F840540949935D24270F209 /* Pods-QNBaseComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNBaseComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DBD4A6E4C559D666C3F960288485684 /* QNBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		924D4F454D600ED19383197FAEB42287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955501A23630B301C9D54DA5127606A5 /* Pods-QNBaseComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNBaseComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96069C77DA79092D468F41BBB311B130 /* Pods-QNBaseComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNBaseComponent_Tests-dummy.m"; sourceTree = "<group>"; };
-		9AC1FF0BF7F09765A6D665DF0638DB28 /* Pods_QNBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QNBaseComponent_Example.framework; path = "Pods-QNBaseComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A32EBD3F1696FA010EBF2BC60B3018FF /* QNBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QNBaseComponent.framework; path = QNBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8227CFD75623E8F40FA86AC41960900 /* QNBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QNBaseComponent.modulemap; sourceTree = "<group>"; };
+		9AC1FF0BF7F09765A6D665DF0638DB28 /* Pods_QNBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBaseComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32EBD3F1696FA010EBF2BC60B3018FF /* QNBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEE165B1FC512A000C66FF9 /* QNBasicConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNBasicConfiguration.h; sourceTree = "<group>"; };
+		AAEE165C1FC5199B00C66FF9 /* QNCategoryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNCategoryTest.h; sourceTree = "<group>"; };
+		AAEE165D1FC5199B00C66FF9 /* QNCategoryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNCategoryTest.m; sourceTree = "<group>"; };
+		AAEE16601FC519A400C66FF9 /* QNToolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNToolTest.h; sourceTree = "<group>"; };
+		AAEE16611FC519A400C66FF9 /* QNToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNToolTest.m; sourceTree = "<group>"; };
+		B8227CFD75623E8F40FA86AC41960900 /* QNBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QNBaseComponent.modulemap; sourceTree = "<group>"; };
 		C31FC51DCBC04593096B79C547233B5B /* Pods-QNBaseComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNBaseComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CFF777C0523B825F4BADA723E984E205 /* Pods-QNBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QNBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
+		CFF777C0523B825F4BADA723E984E205 /* Pods-QNBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QNBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
 		E26E2FAA4CDD351AF93E67E98D60A7B7 /* QNBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QNBaseComponent-dummy.m"; sourceTree = "<group>"; };
 		E77A31403C3586A9D73590DB8007DB7F /* Pods-QNBaseComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNBaseComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB265F7E72CD1F0D01F6B02AB81D27EF /* Pods-QNBaseComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNBaseComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,11 +130,13 @@
 		4464CD9BA3FCC16F1957DCB841F242B9 /* QNBaseComponent */ = {
 			isa = PBXGroup;
 			children = (
+				AAEE16561FC5118D00C66FF9 /* QNTool */,
+				AAEE16551FC5114800C66FF9 /* QNCategory */,
+				AAEE16541FC510D700C66FF9 /* QNBasicConfiguration */,
 				F5A9BCC0F771F78DB6CCF453C6DAA619 /* ZJBaseCom.h */,
 				1534D98C89025298A4119EBBFBDFDA17 /* ZJBaseCom.m */,
 				3BC1CE5F601833C3DC4096F272EF9FD3 /* Support Files */,
 			);
-			name = QNBaseComponent;
 			path = QNBaseComponent;
 			sourceTree = "<group>";
 		};
@@ -193,6 +204,35 @@
 			path = "Target Support Files/Pods-QNBaseComponent_Tests";
 			sourceTree = "<group>";
 		};
+		AAEE16541FC510D700C66FF9 /* QNBasicConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE165B1FC512A000C66FF9 /* QNBasicConfiguration.h */,
+			);
+			name = QNBasicConfiguration;
+			path = QNBaseComponent/Classes/QNBasicConfiguration;
+			sourceTree = "<group>";
+		};
+		AAEE16551FC5114800C66FF9 /* QNCategory */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE165C1FC5199B00C66FF9 /* QNCategoryTest.h */,
+				AAEE165D1FC5199B00C66FF9 /* QNCategoryTest.m */,
+			);
+			name = QNCategory;
+			path = QNBaseComponent/Classes/QNCategory;
+			sourceTree = "<group>";
+		};
+		AAEE16561FC5118D00C66FF9 /* QNTool */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE16601FC519A400C66FF9 /* QNToolTest.h */,
+				AAEE16611FC519A400C66FF9 /* QNToolTest.m */,
+			);
+			name = QNTool;
+			path = QNBaseComponent/Classes/QNTool;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,7 +273,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEE16621FC519A400C66FF9 /* QNToolTest.h in Headers */,
 				963BC78CD430A271122C40A30C55B9E9 /* Pods-QNBaseComponent_Example-umbrella.h in Headers */,
+				AAEE165E1FC5199B00C66FF9 /* QNCategoryTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEE165F1FC5199B00C66FF9 /* QNCategoryTest.m in Sources */,
+				AAEE16631FC519A400C66FF9 /* QNToolTest.m in Sources */,
 				5B2FA074BF68BFB5C028B921E3F169A7 /* Pods-QNBaseComponent_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
