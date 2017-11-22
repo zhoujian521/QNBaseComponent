@@ -18,5 +18,18 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QNBaseComponent/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "QNBasicConfiguration",
+      "source_files": "QNBaseComponent/Classes/QNBasicConfiguration/**/*"
+    },
+    {
+      "name": "QNCategory",
+      "source_files": "QNBaseComponent/Classes/QNCategory/**/*"
+    },
+    {
+      "name": "QNTool",
+      "source_files": "QNBaseComponent/Classes/QNTool/**/*"
+    }
+  ]
 }

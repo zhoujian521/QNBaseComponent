@@ -30,19 +30,19 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'QNBaseComponent/Classes/**/*'
+  # s.source_files = 'QNBaseComponent/Classes/**/*'
 
-#s.subspec 'QNBasicConfiguration' do |b|
-#b.source_files = 'QNBaseComponent/Classes/QNBasicConfiguration/**/*'
-#end
+  s.subspec 'QNBasicConfiguration' do |b|
+    b.source_files = 'QNBaseComponent/Classes/QNBasicConfiguration/**/*'
+  end
 
-#s.subspec 'QNCategory' do |c|
-#c.source_files = 'QNBaseComponent/Classes/QNCategory/**/*'
-#end
+  s.subspec 'QNCategory' do |c|
+    c.source_files = 'QNBaseComponent/Classes/QNCategory/**/*'
+  end
 
-#s.subspec 'QNTool' do |t|
-#t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
-#end
+  s.subspec 'QNTool' do |t|
+    t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
+  end
 
 
   # s.resource_bundles = {

@@ -1,5 +1,11 @@
 PODS:
-  - QNBaseComponent (0.2.0)
+  - QNBaseComponent (0.2.0):
+    - QNBaseComponent/QNBasicConfiguration (= 0.2.0)
+    - QNBaseComponent/QNCategory (= 0.2.0)
+    - QNBaseComponent/QNTool (= 0.2.0)
+  - QNBaseComponent/QNBasicConfiguration (0.2.0)
+  - QNBaseComponent/QNCategory (0.2.0)
+  - QNBaseComponent/QNTool (0.2.0)
 
 DEPENDENCIES:
   - QNBaseComponent (from `../`)
@@ -9,8 +15,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  QNBaseComponent: b403bb87d7c411129005315612f6fad9d0cb12de
+  QNBaseComponent: 4113041b037b83d3cb6f1be1e299639b159c382c
 
-PODFILE CHECKSUM: b5aa8cc29ebfa00e646c20dc38d2da643621b242
+PODFILE CHECKSUM: 7e5d2571655987f0577a7a008ac5a0368515b4a9
 
 COCOAPODS: 1.4.0.beta.2
