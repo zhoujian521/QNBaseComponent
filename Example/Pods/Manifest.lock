@@ -1,11 +1,11 @@
 PODS:
-  - QNBaseComponent (0.2.0):
-    - QNBaseComponent/QNBasicConfiguration (= 0.2.0)
-    - QNBaseComponent/QNCategory (= 0.2.0)
-    - QNBaseComponent/QNTool (= 0.2.0)
-  - QNBaseComponent/QNBasicConfiguration (0.2.0)
-  - QNBaseComponent/QNCategory (0.2.0)
-  - QNBaseComponent/QNTool (0.2.0)
+  - QNBaseComponent (0.3.0):
+    - QNBaseComponent/QNBasicConfiguration (= 0.3.0)
+    - QNBaseComponent/QNCategory (= 0.3.0)
+    - QNBaseComponent/QNTool (= 0.3.0)
+  - QNBaseComponent/QNBasicConfiguration (0.3.0)
+  - QNBaseComponent/QNCategory (0.3.0)
+  - QNBaseComponent/QNTool (0.3.0)
 
 DEPENDENCIES:
   - QNBaseComponent (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  QNBaseComponent: 4113041b037b83d3cb6f1be1e299639b159c382c
+  QNBaseComponent: 64f236857f11e802c130d30a8c17f95cf7264250
 
 PODFILE CHECKSUM: 7e5d2571655987f0577a7a008ac5a0368515b4a9
 

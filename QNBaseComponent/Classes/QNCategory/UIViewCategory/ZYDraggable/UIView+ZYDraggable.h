@@ -13,8 +13,8 @@
 /**
  *  Make view draggable.
  *
- *  @param view    Animator reference view, usually is super view.
- *  @param damping Value from 0.0 to 1.0. 0.0 is the least oscillation. default is 0.4.
+ *  view    Animator reference view, usually is super view.
+ *  damping Value from 0.0 to 1.0. 0.0 is the least oscillation. default is 0.4.
  */
 - (void)makeDraggable;
 - (void)makeDraggableInView:(UIView *)view damping:(CGFloat)damping;

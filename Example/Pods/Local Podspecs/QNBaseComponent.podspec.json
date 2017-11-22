@@ -1,8 +1,8 @@
 {
   "name": "QNBaseComponent",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "QNBaseComponent",
-  "description": "QNBaseComponent 【组件化开发】【基础组件】【日期：2017/11/20】",
+  "description": "QNBaseComponent 【组件化开发】【基础组件】【配置组件】【分类组件】【工具组件】【日期：2017/11/20】",
   "homepage": "https://github.com/shuaijianjian/QNBaseComponent",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shuaijianjian/QNBaseComponent.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
