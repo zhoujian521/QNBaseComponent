@@ -6,6 +6,7 @@
 //
 
 #import "ZJBaseCom.h"
+#import "QNBasicConfiguration.h"
 
 @implementation ZJBaseCom
 

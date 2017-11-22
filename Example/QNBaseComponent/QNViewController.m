@@ -8,6 +8,7 @@
 
 #import "QNViewController.h"
 #import "ZJBaseCom.h"
+#import "QNBasicConfiguration.h"
 
 @interface QNViewController ()
 

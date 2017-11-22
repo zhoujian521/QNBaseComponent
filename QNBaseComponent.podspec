@@ -30,19 +30,20 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  # 【青牛组件化开发】【基础组件】=》【子组件】=》【基础配置组件】
-  s.subspec 'QNBasicConfiguration' do |b|
-    b.source_files = 'QNBaseComponent/Classes/QNBasicConfiguration/**/*'
-  end
+  s.source_files = 'QNBaseComponent/Classes/**/*'
 
-  # 【青牛组件化开发】【基础组件】=》【子组件】=》【分类组件】
-  s.subspec 'QNCategory' do |c|
-    b.source_files = 'QNBaseComponent/Classes/QNCategory/**/*'
-  end
+#s.subspec 'QNBasicConfiguration' do |b|
+#b.source_files = 'QNBaseComponent/Classes/QNBasicConfiguration/**/*'
+#end
 
-  s.subspec 'QNTool' do |t|
-    t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
-  end
+#s.subspec 'QNCategory' do |c|
+#c.source_files = 'QNBaseComponent/Classes/QNCategory/**/*'
+#end
+
+#s.subspec 'QNTool' do |t|
+#t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
+#end
+
 
   # s.resource_bundles = {
   #   'QNBaseComponent' => ['QNBaseComponent/Assets/*.png']

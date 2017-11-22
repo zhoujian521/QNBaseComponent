@@ -9,19 +9,20 @@
 /* Begin PBXBuildFile section */
 		00D6749D7C0F377AADF97CD663F672E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0EEF26F1DB87A7C361EE8B95325310D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0EFF2B291846E8775138295A025CCB2F /* ZJBaseCom.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A9BCC0F771F78DB6CCF453C6DAA619 /* ZJBaseCom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		102031B9AA76D3E030AD45E1B3655BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		19FB57264E89966F29FDAB96DF0A1BEF /* QNToolTest.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D21ACA4D0ABB81430D0C357E80B41 /* QNToolTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FDC47D3754F5F98A6F3993FD75ED22C /* ZJBaseCom.h in Headers */ = {isa = PBXBuildFile; fileRef = E3719DB2D903C6582D40789BC5BA36D1 /* ZJBaseCom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		322EF0BDFC70FDFFBDE72D5EF4844AFC /* Pods-QNBaseComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C31FC51DCBC04593096B79C547233B5B /* Pods-QNBaseComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FB11DE2A2D3F4A1A867D4F748A137A0 /* QNBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E2FAA4CDD351AF93E67E98D60A7B7 /* QNBaseComponent-dummy.m */; };
+		4C5B3A531620DFAFB05B6CEB020F846C /* QNBasicConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A03D581043CC936D049869916818FB91 /* QNBasicConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		590F093A502F95BBD30384138F0AD875 /* Pods-QNBaseComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96069C77DA79092D468F41BBB311B130 /* Pods-QNBaseComponent_Tests-dummy.m */; };
 		5B2FA074BF68BFB5C028B921E3F169A7 /* Pods-QNBaseComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C24D08C57AC1F4BA14FB838F2E4C4 /* Pods-QNBaseComponent_Example-dummy.m */; };
-		60714314427C375E19FE8C2864C2DBC4 /* QNBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBD4A6E4C559D666C3F960288485684 /* QNBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BBC6D173A20D6F2491BD9B1F298FFAB /* ZJBaseCom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1534D98C89025298A4119EBBFBDFDA17 /* ZJBaseCom.m */; };
+		7C53842232739F9B3C7BC6ACBD4EF688 /* QNCategoryTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F156706D25E92A9B2A7BAEF8514E8B /* QNCategoryTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963BC78CD430A271122C40A30C55B9E9 /* Pods-QNBaseComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 552A9B223046091AAEDAED677E10D0FE /* Pods-QNBaseComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAEE165E1FC5199B00C66FF9 /* QNCategoryTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEE165C1FC5199B00C66FF9 /* QNCategoryTest.h */; };
-		AAEE165F1FC5199B00C66FF9 /* QNCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE165D1FC5199B00C66FF9 /* QNCategoryTest.m */; };
-		AAEE16621FC519A400C66FF9 /* QNToolTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEE16601FC519A400C66FF9 /* QNToolTest.h */; };
-		AAEE16631FC519A400C66FF9 /* QNToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEE16611FC519A400C66FF9 /* QNToolTest.m */; };
+		9F0DED2C1D7F9B8DC2CA39B827B04E27 /* QNToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 553C0AB6EF492968449CED5198FB96A1 /* QNToolTest.m */; };
+		AF9BBB2FAFD2BABBA32688DCB7486466 /* QNBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F501FDE1564D3ED8BD5B5EF49817FB90 /* QNBaseComponent-dummy.m */; };
+		B3AA0A42A836DF8467F549A7EBCABFF5 /* QNBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D4B5D2CEF13716ACE2BBCCAB33BF01 /* QNBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF14C26E773EC22FF06D3BFEF8B265A6 /* ZJBaseCom.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADE9B46EDB8E844ADC3478657D3AF /* ZJBaseCom.m */; };
+		FB490420BE5B99766C79B131B50F3DD0 /* QNCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B829E68AF6C51D0E83EFE396F1C741B8 /* QNCategoryTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,43 +37,43 @@
 
 /* Begin PBXFileReference section */
 		0384FD6EA9161FA40794F64AB1AD411A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0575C2222EAD7DC3A7CEF00BC698FB63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06FC9F714FFD30AF48F7B51E0C63411B /* Pods-QNBaseComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNBaseComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0B020A471EBB43F6E28689459FA2E933 /* QNBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		11120264DAE55C53568733B051BEECD1 /* Pods-QNBaseComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNBaseComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1534D98C89025298A4119EBBFBDFDA17 /* ZJBaseCom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJBaseCom.m; path = QNBaseComponent/Classes/ZJBaseCom.m; sourceTree = "<group>"; };
 		2AD31D323383C7C285BD6DA5CC12033F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B825B4214EFFBD2064135ECA4EAF0BA /* Pods-QNBaseComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNBaseComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		303C99B318F35689E565B884A59E6FB7 /* QNBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QNBaseComponent.modulemap; sourceTree = "<group>"; };
 		31600F333F3B6FE4D15778F77DF09889 /* Pods-QNBaseComponent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNBaseComponent_Tests-resources.sh"; sourceTree = "<group>"; };
-		371610724998BE0806B86FE97B6BFB6A /* QNBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		3E5C24D08C57AC1F4BA14FB838F2E4C4 /* Pods-QNBaseComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNBaseComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		552A9B223046091AAEDAED677E10D0FE /* Pods-QNBaseComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNBaseComponent_Example-umbrella.h"; sourceTree = "<group>"; };
-		5658BDC67246E36E739C8BE52A540B17 /* Pods-QNBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QNBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
+		553C0AB6EF492968449CED5198FB96A1 /* QNToolTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QNToolTest.m; sourceTree = "<group>"; };
+		5658BDC67246E36E739C8BE52A540B17 /* Pods-QNBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QNBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		5D64C5C48F90A593EE1562B282A00DC5 /* Pods-QNBaseComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNBaseComponent_Example-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B3EF1D50E3E053A5C96E92A428736CA /* QNBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QNBaseComponent.xcconfig; sourceTree = "<group>"; };
+		71D4B5D2CEF13716ACE2BBCCAB33BF01 /* QNBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		721578846131A31068B424FCDF920C39 /* Pods-QNBaseComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNBaseComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		745CDAED934B5934A7D7E92A83FAFBAE /* Pods_QNBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBaseComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		745CDAED934B5934A7D7E92A83FAFBAE /* Pods_QNBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QNBaseComponent_Tests.framework; path = "Pods-QNBaseComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EDCA7CF578C85ED78AFAD78982C802 /* Pods-QNBaseComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNBaseComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80609B380F840540949935D24270F209 /* Pods-QNBaseComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNBaseComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8DBD4A6E4C559D666C3F960288485684 /* QNBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNBaseComponent-umbrella.h"; sourceTree = "<group>"; };
-		924D4F454D600ED19383197FAEB42287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92F156706D25E92A9B2A7BAEF8514E8B /* QNCategoryTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QNCategoryTest.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955501A23630B301C9D54DA5127606A5 /* Pods-QNBaseComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNBaseComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96069C77DA79092D468F41BBB311B130 /* Pods-QNBaseComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNBaseComponent_Tests-dummy.m"; sourceTree = "<group>"; };
-		9AC1FF0BF7F09765A6D665DF0638DB28 /* Pods_QNBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBaseComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A32EBD3F1696FA010EBF2BC60B3018FF /* QNBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAEE165B1FC512A000C66FF9 /* QNBasicConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNBasicConfiguration.h; sourceTree = "<group>"; };
-		AAEE165C1FC5199B00C66FF9 /* QNCategoryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNCategoryTest.h; sourceTree = "<group>"; };
-		AAEE165D1FC5199B00C66FF9 /* QNCategoryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNCategoryTest.m; sourceTree = "<group>"; };
-		AAEE16601FC519A400C66FF9 /* QNToolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNToolTest.h; sourceTree = "<group>"; };
-		AAEE16611FC519A400C66FF9 /* QNToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNToolTest.m; sourceTree = "<group>"; };
-		B8227CFD75623E8F40FA86AC41960900 /* QNBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QNBaseComponent.modulemap; sourceTree = "<group>"; };
+		9AC1FF0BF7F09765A6D665DF0638DB28 /* Pods_QNBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QNBaseComponent_Example.framework; path = "Pods-QNBaseComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03D581043CC936D049869916818FB91 /* QNBasicConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QNBasicConfiguration.h; sourceTree = "<group>"; };
+		A32EBD3F1696FA010EBF2BC60B3018FF /* QNBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QNBaseComponent.framework; path = QNBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51ADE9B46EDB8E844ADC3478657D3AF /* ZJBaseCom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJBaseCom.m; path = QNBaseComponent/Classes/ZJBaseCom.m; sourceTree = "<group>"; };
+		B829E68AF6C51D0E83EFE396F1C741B8 /* QNCategoryTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QNCategoryTest.m; sourceTree = "<group>"; };
+		B91D21ACA4D0ABB81430D0C357E80B41 /* QNToolTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QNToolTest.h; sourceTree = "<group>"; };
 		C31FC51DCBC04593096B79C547233B5B /* Pods-QNBaseComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNBaseComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CFF777C0523B825F4BADA723E984E205 /* Pods-QNBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QNBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
-		E26E2FAA4CDD351AF93E67E98D60A7B7 /* QNBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QNBaseComponent-dummy.m"; sourceTree = "<group>"; };
+		CFF777C0523B825F4BADA723E984E205 /* Pods-QNBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QNBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
+		E12A6198C7975073047FC4F5AE4A5E1A /* QNBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QNBaseComponent.xcconfig; sourceTree = "<group>"; };
+		E3719DB2D903C6582D40789BC5BA36D1 /* ZJBaseCom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJBaseCom.h; path = QNBaseComponent/Classes/ZJBaseCom.h; sourceTree = "<group>"; };
 		E77A31403C3586A9D73590DB8007DB7F /* Pods-QNBaseComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNBaseComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB265F7E72CD1F0D01F6B02AB81D27EF /* Pods-QNBaseComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNBaseComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EFB248AF6BE66ACD27B9C505B87753B9 /* Pods-QNBaseComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNBaseComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5A9BCC0F771F78DB6CCF453C6DAA619 /* ZJBaseCom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJBaseCom.h; path = QNBaseComponent/Classes/ZJBaseCom.h; sourceTree = "<group>"; };
+		F501FDE1564D3ED8BD5B5EF49817FB90 /* QNBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QNBaseComponent-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22E1ED6232B1595094B2435D543667C6 /* QNCategory */ = {
+			isa = PBXGroup;
+			children = (
+				92F156706D25E92A9B2A7BAEF8514E8B /* QNCategoryTest.h */,
+				B829E68AF6C51D0E83EFE396F1C741B8 /* QNCategoryTest.m */,
+			);
+			name = QNCategory;
+			path = QNBaseComponent/Classes/QNCategory;
+			sourceTree = "<group>";
+		};
+		27FEBA47F761C1882BE6000D97503931 /* QNTool */ = {
+			isa = PBXGroup;
+			children = (
+				B91D21ACA4D0ABB81430D0C357E80B41 /* QNToolTest.h */,
+				553C0AB6EF492968449CED5198FB96A1 /* QNToolTest.m */,
+			);
+			name = QNTool;
+			path = QNBaseComponent/Classes/QNTool;
+			sourceTree = "<group>";
+		};
 		2FE5759059020F041DDDCFB94A0D0F68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,33 +132,6 @@
 				A32EBD3F1696FA010EBF2BC60B3018FF /* QNBaseComponent.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3BC1CE5F601833C3DC4096F272EF9FD3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				924D4F454D600ED19383197FAEB42287 /* Info.plist */,
-				B8227CFD75623E8F40FA86AC41960900 /* QNBaseComponent.modulemap */,
-				6B3EF1D50E3E053A5C96E92A428736CA /* QNBaseComponent.xcconfig */,
-				E26E2FAA4CDD351AF93E67E98D60A7B7 /* QNBaseComponent-dummy.m */,
-				371610724998BE0806B86FE97B6BFB6A /* QNBaseComponent-prefix.pch */,
-				8DBD4A6E4C559D666C3F960288485684 /* QNBaseComponent-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QNBaseComponent";
-			sourceTree = "<group>";
-		};
-		4464CD9BA3FCC16F1957DCB841F242B9 /* QNBaseComponent */ = {
-			isa = PBXGroup;
-			children = (
-				AAEE16561FC5118D00C66FF9 /* QNTool */,
-				AAEE16551FC5114800C66FF9 /* QNCategory */,
-				AAEE16541FC510D700C66FF9 /* QNBasicConfiguration */,
-				F5A9BCC0F771F78DB6CCF453C6DAA619 /* ZJBaseCom.h */,
-				1534D98C89025298A4119EBBFBDFDA17 /* ZJBaseCom.m */,
-				3BC1CE5F601833C3DC4096F272EF9FD3 /* Support Files */,
-			);
-			path = QNBaseComponent;
 			sourceTree = "<group>";
 		};
 		4BBA5872A9DCFE59B11B1BB91F80C0DB /* Targets Support Files */ = {
@@ -171,19 +165,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B49EAC182E2389C8D12E0AFAAB643E74 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				87B5C12F3AC11D095C3D9CF2EAB88FC7 /* Pods */,
 				2FE5759059020F041DDDCFB94A0D0F68 /* Products */,
 				4BBA5872A9DCFE59B11B1BB91F80C0DB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		87B5C12F3AC11D095C3D9CF2EAB88FC7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4464CD9BA3FCC16F1957DCB841F242B9 /* QNBaseComponent */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		8CCFF080F1CCDDD92AC2A43600216787 /* Pods-QNBaseComponent_Tests */ = {
@@ -204,33 +190,21 @@
 			path = "Target Support Files/Pods-QNBaseComponent_Tests";
 			sourceTree = "<group>";
 		};
-		AAEE16541FC510D700C66FF9 /* QNBasicConfiguration */ = {
+		99259DAF3CDA070E5740BCA7EBF71392 /* QNBasicConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				AAEE165B1FC512A000C66FF9 /* QNBasicConfiguration.h */,
+				A03D581043CC936D049869916818FB91 /* QNBasicConfiguration.h */,
 			);
 			name = QNBasicConfiguration;
 			path = QNBaseComponent/Classes/QNBasicConfiguration;
 			sourceTree = "<group>";
 		};
-		AAEE16551FC5114800C66FF9 /* QNCategory */ = {
+		B49EAC182E2389C8D12E0AFAAB643E74 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAEE165C1FC5199B00C66FF9 /* QNCategoryTest.h */,
-				AAEE165D1FC5199B00C66FF9 /* QNCategoryTest.m */,
+				CD1A603A76E65C0FB7905877A6DB5410 /* QNBaseComponent */,
 			);
-			name = QNCategory;
-			path = QNBaseComponent/Classes/QNCategory;
-			sourceTree = "<group>";
-		};
-		AAEE16561FC5118D00C66FF9 /* QNTool */ = {
-			isa = PBXGroup;
-			children = (
-				AAEE16601FC519A400C66FF9 /* QNToolTest.h */,
-				AAEE16611FC519A400C66FF9 /* QNToolTest.m */,
-			);
-			name = QNTool;
-			path = QNBaseComponent/Classes/QNTool;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -241,12 +215,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD1A603A76E65C0FB7905877A6DB5410 /* QNBaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E3719DB2D903C6582D40789BC5BA36D1 /* ZJBaseCom.h */,
+				B51ADE9B46EDB8E844ADC3478657D3AF /* ZJBaseCom.m */,
+				99259DAF3CDA070E5740BCA7EBF71392 /* QNBasicConfiguration */,
+				22E1ED6232B1595094B2435D543667C6 /* QNCategory */,
+				27FEBA47F761C1882BE6000D97503931 /* QNTool */,
+				F9F925F51FE4ECF7F74DA851BC0B0AC0 /* Support Files */,
+			);
+			name = QNBaseComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F9F925F51FE4ECF7F74DA851BC0B0AC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0575C2222EAD7DC3A7CEF00BC698FB63 /* Info.plist */,
+				303C99B318F35689E565B884A59E6FB7 /* QNBaseComponent.modulemap */,
+				E12A6198C7975073047FC4F5AE4A5E1A /* QNBaseComponent.xcconfig */,
+				F501FDE1564D3ED8BD5B5EF49817FB90 /* QNBaseComponent-dummy.m */,
+				0B020A471EBB43F6E28689459FA2E933 /* QNBaseComponent-prefix.pch */,
+				71D4B5D2CEF13716ACE2BBCCAB33BF01 /* QNBaseComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QNBaseComponent";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,12 +262,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE5DECB5A6D6A95EE57037CA356E8368 /* Headers */ = {
+		E06D152EE44D76AE8CC8B20CA618BCE5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60714314427C375E19FE8C2864C2DBC4 /* QNBaseComponent-umbrella.h in Headers */,
-				0EFF2B291846E8775138295A025CCB2F /* ZJBaseCom.h in Headers */,
+				B3AA0A42A836DF8467F549A7EBCABFF5 /* QNBaseComponent-umbrella.h in Headers */,
+				4C5B3A531620DFAFB05B6CEB020F846C /* QNBasicConfiguration.h in Headers */,
+				7C53842232739F9B3C7BC6ACBD4EF688 /* QNCategoryTest.h in Headers */,
+				19FB57264E89966F29FDAB96DF0A1BEF /* QNToolTest.h in Headers */,
+				2FDC47D3754F5F98A6F3993FD75ED22C /* ZJBaseCom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +278,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEE16621FC519A400C66FF9 /* QNToolTest.h in Headers */,
 				963BC78CD430A271122C40A30C55B9E9 /* Pods-QNBaseComponent_Example-umbrella.h in Headers */,
-				AAEE165E1FC5199B00C66FF9 /* QNCategoryTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +289,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 921F84E74DC2EBEBFFA82BBF79F2F67F /* Build configuration list for PBXNativeTarget "QNBaseComponent" */;
 			buildPhases = (
-				95B3A6455F1AD271BEFF44D32F58BB42 /* Sources */,
+				D2A3670EF05CCD69382A0FD6BC0D1CAF /* Sources */,
 				4E970EDB020A86889C823E0039D91D20 /* Frameworks */,
-				BE5DECB5A6D6A95EE57037CA356E8368 /* Headers */,
+				E06D152EE44D76AE8CC8B20CA618BCE5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -367,18 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEE165F1FC5199B00C66FF9 /* QNCategoryTest.m in Sources */,
-				AAEE16631FC519A400C66FF9 /* QNToolTest.m in Sources */,
 				5B2FA074BF68BFB5C028B921E3F169A7 /* Pods-QNBaseComponent_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95B3A6455F1AD271BEFF44D32F58BB42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4FB11DE2A2D3F4A1A867D4F748A137A0 /* QNBaseComponent-dummy.m in Sources */,
-				7BBC6D173A20D6F2491BD9B1F298FFAB /* ZJBaseCom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +379,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				590F093A502F95BBD30384138F0AD875 /* Pods-QNBaseComponent_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A3670EF05CCD69382A0FD6BC0D1CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9BBB2FAFD2BABBA32688DCB7486466 /* QNBaseComponent-dummy.m in Sources */,
+				FB490420BE5B99766C79B131B50F3DD0 /* QNCategoryTest.m in Sources */,
+				9F0DED2C1D7F9B8DC2CA39B827B04E27 /* QNToolTest.m in Sources */,
+				BF14C26E773EC22FF06D3BFEF8B265A6 /* ZJBaseCom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +440,7 @@
 		};
 		0F8DC58B512D4280CE4A2A57CBBC8B6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B3EF1D50E3E053A5C96E92A428736CA /* QNBaseComponent.xcconfig */;
+			baseConfigurationReference = E12A6198C7975073047FC4F5AE4A5E1A /* QNBaseComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,7 +617,7 @@
 		};
 		825F72346B9011718D461C7DFDB7B913 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B3EF1D50E3E053A5C96E92A428736CA /* QNBaseComponent.xcconfig */;
+			baseConfigurationReference = E12A6198C7975073047FC4F5AE4A5E1A /* QNBaseComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

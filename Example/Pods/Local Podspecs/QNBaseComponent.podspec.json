@@ -1,8 +1,8 @@
 {
   "name": "QNBaseComponent",
-  "version": "0.1.0",
-  "summary": "A short description of QNBaseComponent.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "QNBaseComponent",
+  "description": "QNBaseComponent 【组件化开发】【基础组件】【日期：2017/11/20】",
   "homepage": "https://github.com/shuaijianjian/QNBaseComponent",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shuaijianjian/QNBaseComponent.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

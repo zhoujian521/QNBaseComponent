@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "QNBasicConfiguration.h"
+#import "QNCategoryTest.h"
+#import "QNToolTest.h"
 #import "ZJBaseCom.h"
 
 FOUNDATION_EXPORT double QNBaseComponentVersionNumber;
