@@ -22,6 +22,8 @@
 
 /******************************【iOS 系统版本判断】***********************************/
 #define MKSystemVersionGreaterOrEqualThan(version) ([[[UIDevice currentDevice] systemVersion] compare:version options:NSCaseInsensitiveSearch]  >= NSOrderedSame )
+
+#define IOS8_OR_LATER MKSystemVersionGreaterOrEqualThan(@"7.0")
 #define IOS8_OR_LATER MKSystemVersionGreaterOrEqualThan(@"8.0")
 #define IOS9_OR_LATER MKSystemVersionGreaterOrEqualThan(@"9.0")
 

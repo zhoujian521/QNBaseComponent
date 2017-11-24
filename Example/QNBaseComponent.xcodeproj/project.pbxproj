@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2F004F8CDDDAABD3F4C6C134 /* Pods-QNBaseComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNBaseComponent_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QNBaseComponent_Tests/Pods-QNBaseComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		431A14757990C85B63628BC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		431A14757990C85B63628BC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		433595C34D0BE9B3F6ADB6E3 /* Pods-QNBaseComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNBaseComponent_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QNBaseComponent_Example/Pods-QNBaseComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BEA8A2BF54E8F939B5509F9 /* Pods-QNBaseComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNBaseComponent_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QNBaseComponent_Tests/Pods-QNBaseComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		55483D824C75D4D43C65E0EE /* Pods_QNBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBaseComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD43518E045DFA7CE9DA3E7 /* Pods_QNBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBaseComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2A3E540616F816D5BEDB967 /* QNBaseComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QNBaseComponent.podspec; path = ../QNBaseComponent.podspec; sourceTree = "<group>"; };
+		A2A3E540616F816D5BEDB967 /* QNBaseComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QNBaseComponent.podspec; path = ../QNBaseComponent.podspec; sourceTree = "<group>"; };
 		D27F9CA25A4EE2863AE7EC2D /* Pods-QNBaseComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNBaseComponent_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QNBaseComponent_Example/Pods-QNBaseComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E19EEE0817344FAEB822CD65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E19EEE0817344FAEB822CD65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,7 +250,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shuaijianjian;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = H9Y3FRUC6H;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = H9Y3FRUC6H;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -488,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -533,12 +538,16 @@
 			baseConfigurationReference = D27F9CA25A4EE2863AE7EC2D /* Pods-QNBaseComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9Y3FRUC6H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QNBaseComponent/QNBaseComponent-Prefix.pch";
 				INFOPLIST_FILE = "QNBaseComponent/QNBaseComponent-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +557,16 @@
 			baseConfigurationReference = 433595C34D0BE9B3F6ADB6E3 /* Pods-QNBaseComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9Y3FRUC6H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QNBaseComponent/QNBaseComponent-Prefix.pch";
 				INFOPLIST_FILE = "QNBaseComponent/QNBaseComponent-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -563,6 +576,7 @@
 			baseConfigurationReference = 4BEA8A2BF54E8F939B5509F9 /* Pods-QNBaseComponent_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9Y3FRUC6H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -587,6 +601,7 @@
 			baseConfigurationReference = 2F004F8CDDDAABD3F4C6C134 /* Pods-QNBaseComponent_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9Y3FRUC6H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

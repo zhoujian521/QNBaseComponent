@@ -38,7 +38,16 @@
 #import "UIView+Frame.h"
 #import "UIView+YGPulseView.h"
 #import "UIView+ZYDraggable.h"
-#import "QNToolTest.h"
+#import "QNComHelper.h"
+#import "QNDateHelper.h"
+#import "QNFileHelper.h"
+#import "QNWMHelper.h"
+#import "ChatMsgTool.h"
+#import "WMCusHelper.h"
+#import "WMGetCusHelper.h"
+#import "WMHelper.h"
+#import "WMMakeCallHelper.h"
+#import "WMMyTool.h"
 
 FOUNDATION_EXPORT double QNBaseComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char QNBaseComponentVersionString[];
