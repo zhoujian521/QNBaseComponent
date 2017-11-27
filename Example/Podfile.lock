@@ -1,18 +1,41 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - QNBaseComponent (0.4.0):
     - QNBaseComponent/QNBasicConfiguration (= 0.4.0)
     - QNBaseComponent/QNCategory (= 0.4.0)
+    - QNBaseComponent/QNNetwork (= 0.4.0)
     - QNBaseComponent/QNTool (= 0.4.0)
   - QNBaseComponent/QNBasicConfiguration (0.4.0)
   - QNBaseComponent/QNCategory (0.4.0)
+  - QNBaseComponent/QNNetwork (0.4.0):
+    - AFNetworking (~> 3.1.0)
   - QNBaseComponent/QNTool (0.4.0)
 
 DEPENDENCIES:
-  - QNBaseComponent
+  - QNBaseComponent (from `../`)
+
+EXTERNAL SOURCES:
+  QNBaseComponent:
+    :path: ../
 
 SPEC CHECKSUMS:
-  QNBaseComponent: c30081f3e70de97cc12a5f0019b5c61d38f4ca68
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  QNBaseComponent: dbf620c0b707c4e262adbbd9229314755f14fb83
 
-PODFILE CHECKSUM: 13a49a519f2a417b40082277a98aae229725e2aa
+PODFILE CHECKSUM: 3b2c63aa1c02c9d01d4e9cc7790d534c4b4ecf3c
 
 COCOAPODS: 1.4.0.beta.2

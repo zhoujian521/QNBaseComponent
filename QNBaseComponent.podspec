@@ -44,10 +44,10 @@ Pod::Spec.new do |s|
     t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
   end
 
-#s.subspec 'QNNetwork' do |n|
-#n.source_files = 'QNBaseComponent/Classes/QNNetwork/**/*'
-#n.dependency 'AFNetworking', '~> 3.1.0'
-#end
+  s.subspec 'QNNetwork' do |n|
+    n.source_files = 'QNBaseComponent/Classes/QNNetwork/**/*'
+    n.dependency 'AFNetworking', '~> 3.1.0'
+  end
 
 
   # s.resource_bundles = {

@@ -38,6 +38,7 @@
 #import "UIView+Frame.h"
 #import "UIView+YGPulseView.h"
 #import "UIView+ZYDraggable.h"
+#import "QNSessionManager.h"
 #import "QNComHelper.h"
 #import "QNDateHelper.h"
 #import "QNFileHelper.h"
