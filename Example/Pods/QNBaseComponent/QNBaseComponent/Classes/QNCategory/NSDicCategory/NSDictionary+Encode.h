@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (Encode)
+
 - (NSString *)statisticsParameterEncode;
+
 @end

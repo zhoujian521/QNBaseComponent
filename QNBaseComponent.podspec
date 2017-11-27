@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QNBaseComponent'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'QNBaseComponent'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  QNBaseComponent 【组件化开发】【基础组件】【配置组件】【分类组件】【工具组件】【日期：2017/11/20】
+  QNBaseComponent 【组件化开发】【基础组件】【配置组件】【分类组件】【工具组件】【日期：2017/11/24】
                        DESC
 
   s.homepage         = 'https://github.com/shuaijianjian/QNBaseComponent'
@@ -44,6 +44,11 @@ Pod::Spec.new do |s|
     t.source_files = 'QNBaseComponent/Classes/QNTool/**/*'
   end
 
+  s.subspec 'QNNetwork' do |n|
+    n.source_files = 'QNBaseComponent/Classes/QNNetwork/**/*'
+    n.dependency 'AFNetworking', '~> 3.1.0'
+  end
+
 
   # s.resource_bundles = {
   #   'QNBaseComponent' => ['QNBaseComponent/Assets/*.png']
@@ -51,5 +56,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
