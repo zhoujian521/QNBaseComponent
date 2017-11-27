@@ -6,8 +6,8 @@ use_frameworks!
 target 'QNBaseComponent_Example' do
     
 #    本地私有库
-#    pod 'QNBaseCom  ponent', :path => '../'
-    pod 'QNBaseComponent'
+    pod 'QNBaseCom  ponent', :path => '../'
+#    pod 'QNBaseComponent'
 
 #    远程私有库
 #  pod 'QNBaseComponent/QNBasicConfiguration'
