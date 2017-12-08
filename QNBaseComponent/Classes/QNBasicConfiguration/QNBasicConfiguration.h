@@ -13,6 +13,18 @@
 // 变量
 
 // 宏
+#define GetImage(imageName)  [UIImage imageNamed:imageName]
+
+// View 圆角
+#define ViewRadius(View, Radius)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES]
+
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+
 /******************************【iOS 强弱引用】***********************************/
 #define weakself(type)  __weak typeof(type) weak##type = type;
 #define strongSelf(type) __strong typeof(type) type = weak##type;
