@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QNBaseComponent'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'QNBaseComponent'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  QNBaseComponent 【组件化开发】【基础组件】【配置组件】【分类组件】【工具组件】【日期：2017/11/24】
+  QNBaseComponent 【组件化开发】【基础组件】【配置组件】【分类组件】【工具组件】【网络请求组件】【日期：2017/11/24】
                        DESC
 
   s.homepage         = 'https://github.com/shuaijianjian/QNBaseComponent'
